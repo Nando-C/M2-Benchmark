@@ -64,6 +64,6 @@ hr {
     font-weight: 700;
 }
 
-/* .sale img{
-    width: 100%;
-} */
+.sale img {
+    object-fit: cover;
+}
