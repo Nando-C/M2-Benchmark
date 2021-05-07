@@ -1,3 +1,7 @@
+:root {
+    --myPurple : rgb(148, 52, 150);
+}
+
 body {
     background-color: rgb(211, 210, 211);
 }
@@ -32,7 +36,7 @@ hr {
 }
 
 .carousel-indicators {
-    bottom: -3em;
+    bottom: -3.3em;
 }
 .carousel-control-prev {
     justify-content: flex-start;
@@ -41,4 +45,21 @@ hr {
 .carousel-control-next {
     justify-content: flex-end;
     margin-right: -2em;
+}
+.card-img-top {
+    /* max-height: 110px; */
+}
+.card-body {
+    padding: 0.5em 1em;
+}
+.card-price span{
+    justify-content: flex-end;
+} 
+#gog-msg p {
+    font-size: 0.85em;
+    margin-bottom: 0PX;
+}
+#gog-msg span {
+    color: var(--myPurple);
+    font-weight: 700;
 }
