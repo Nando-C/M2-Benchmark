@@ -68,3 +68,14 @@ hr {
     object-fit: cover;
     object-position: 50% 50%;
 }
+
+tr>th>img {
+    max-height: 85px;
+}
+td>span {
+    font-weight: 700;
+}
+
+.table td {
+    vertical-align: middle;
+}
